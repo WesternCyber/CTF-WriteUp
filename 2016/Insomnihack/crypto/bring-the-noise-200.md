@@ -1,3 +1,20 @@
+# Insomnihack 2016 : Crypto (200)
+
+**Category:** crypto |
+**Points:** 200 |
+**Name:** Bring the noise |
+**Solves:** ? |
+**Description:**
+
+> Quantum computers won't help you
+>
+> Source
+> Running on: bringthenoise.insomnihack.ch:1111
+
+___
+
+## Write-up
+
 Our solution code can be found [here](https://github.com/nomoonx/insomnihack/blob/master/Bring%20the%20noise/crack.py).
 
 After reading the [server code](https://github.com/nomoonx/insomnihack/blob/master/Bring%20the%20noise/server-bd6a6586808ab28325de37276aa99357.py), it's a python socket server. We can see at the end of the function Handler, there's one line output the FLAG.
