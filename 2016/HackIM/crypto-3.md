@@ -2,6 +2,7 @@
 
 **Category:** crypto |
 **Name:** Crypto Question 3 |
+**Points:** 400 |
 **Solves:** ? |
 **Description:**
 
