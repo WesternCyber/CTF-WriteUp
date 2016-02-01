@@ -1,10 +1,13 @@
 # Programming (Also known as _"Recon"_)
 
 ##Programming 1
+coming soon :)
 
 ##Programming 2
+coming soon :)
 
 ##Programming 3
+coming soon :)
 
 ##Programming 4
 **Q: One of the _"NullCon"_ vidoes talked about a marvalous Russian Gift. The Vidoe was uploaded on [_"May of 2015"_] What is the ID of that _"Youtube video"_.**
@@ -16,3 +19,4 @@
 - Therefore the answer was: **"a4_PvN_A1ts"**
 
 ##Programming 5
+coming soon :)
