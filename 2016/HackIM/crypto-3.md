@@ -11,6 +11,8 @@
 
 ___
 
+## Write-up
+
 I uploaded the file to wiremask's XOR cracker, and the website suggested the key was most likely 12 lengths long, and its best guess to the key was "J $+na ine"
 
 Using some Google-fu, we found the IMDB page of Ancient Secrets of the Kama Sutra, which turned out to be a 1997 porn video. In the cast, we found someone billed as "Jeanna Fine".
