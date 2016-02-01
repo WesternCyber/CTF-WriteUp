@@ -1,4 +1,4 @@
-# ## Nullcon HACKIM 2016 : Crypto (400)
+# Nullcon HACKIM 2016 : Crypto (400)
 
 **Category:** crypto |
 **Name:** Crypto Question 3 |
