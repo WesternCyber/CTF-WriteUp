@@ -1,3 +1,4 @@
 [submodule "Hacking-Tools"]
 	path = Hacking-Tools
 	url = https://github.com/WesternCyber/Hacking-Tools.git
+	branch = master
