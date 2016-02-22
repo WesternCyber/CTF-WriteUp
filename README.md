@@ -5,6 +5,11 @@ For writeup on CTFs challenges we have been able to complete
 
 ###[2016](2016/)
 #####[Internetwache](2016/Internetwache/)
++ [Code 50](2016/Internetwache/Code50.md)
++ [Code 60](2016/Internetwache/Code60.md)
++ [Code 70](2016/Internetwache/Code70.md)
++ [Code 90](2016/Internetwache/Code90.md)
++ [Crypto 80](2016/Internetwache/Crypto80.md)
 
 #####[HackIM](2016/HackIM/)
 + [Programming 1-5](2016/HackIM/programming.md)
