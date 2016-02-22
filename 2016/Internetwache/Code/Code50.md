@@ -32,6 +32,14 @@ Level 1.: x - 2 = 6
 ```
 
 ### Part One
+The quesion is split by spaces, so it seemed easiest to use .split on the string to convert it to an array.
+```
+data = s.recv(512)
+question = data.split(' ')
+print question
+```
+
+### Part Two
 
 Using a if else for each of + - / *, solving the math equation is easy.
 ```
