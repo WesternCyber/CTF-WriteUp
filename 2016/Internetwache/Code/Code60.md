@@ -20,7 +20,7 @@ We were given a service which we connect using python sockets.
 ```
 import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(('188.166.133.53',11027))
+s.connect(('188.166.133.53',11059))
 data = s.recv(2048)
 print data
 ```
