@@ -1,4 +1,4 @@
-# Internetwache 2016 : Code (50)
+# Internetwache 2016 : A numbers game (50)
 
 **Category:** code |
 **Points:** 50 |
