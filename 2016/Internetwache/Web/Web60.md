@@ -38,6 +38,7 @@ Trying to run any php file stream related commands we get the following:
 ![](src/web60screenie3.png)
 
 So we figured to just use bash's cat
+
 <img src="src/web60screenie4.png" width="500">
 
 And that gave us the flag ^.^
