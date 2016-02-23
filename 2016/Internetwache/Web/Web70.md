@@ -16,6 +16,6 @@ ___
 
 ### Part One
 There was a big hint given, when they said **I can't handle long usernames.**
-So we just overflowed the username with 1k+ A's, and it brought us to this screen with the flag ^.^
+So we just overflowed the username with 1000+ A's, and it brought us to this screen with the flag ^.^
 
 ![Screeeeenie](src/web70screenie.jpg =250x)
