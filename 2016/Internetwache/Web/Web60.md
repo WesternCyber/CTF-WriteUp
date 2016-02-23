@@ -19,4 +19,7 @@ Entering into the page, we are met with three fields which we assumed represente
 
 <img src="src/web60screenie1.jpg" width="500">
 
-Looking for exploits on php preg_match, we came accross [this page](http://www.madirish.net/402) 
+Looking for exploits on php preg_match, we came across [this page](http://www.madirish.net/402).
+
+Seems like using **/(.*)/e** as the regex, will cause php to run the second parameter literally.
+

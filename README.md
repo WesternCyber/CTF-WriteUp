@@ -17,7 +17,7 @@ For writeup on CTFs challenges we have been able to complete
 + [Miscellaneous 70](2016/Internetwache/Misc/Misc70.md)
 + [Miscellaneous 80](2016/Internetwache/Misc/Misc80.md)
 + [Miscellaneous 90](2016/Internetwache/Misc/Misc90.md)
-+ [Reverse 90](2016/Internetwache/Misc/Misc90.md)
++ [Reverse 90](2016/Internetwache/Reverse/Rev90.md)
 + [Web 60](2016/Internetwache/Web/Web60.md)
 + [Web 70](2016/Internetwache/Web/Web70.md)
 
