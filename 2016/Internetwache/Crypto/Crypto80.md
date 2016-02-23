@@ -20,7 +20,7 @@ We got rick rolled by the website link. It gave us a 30 second webm video from R
 We did not find any problems with the main video or audio, but we noticed there was a secondary audio track. The secondary audio track 
 We ran the track in Audacity's Spectrum view, and it showed:
 
-![](src/audacity.jpg)
+![](src/Audacity.JPG)
 
 We realized that these were telepone keypad tones, and we converted them into numbers:
 
