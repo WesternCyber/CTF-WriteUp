@@ -14,6 +14,9 @@ ___
 ## Write-up
 
 Scrambling:
+
+
+```
 F' D' U' L' U' F2 B2 D2 F' U D2 B' U' B2 R2 D2 B' R' U B2 L U R' U' L'
 
 
@@ -60,6 +63,7 @@ Blue side:
 | | | |
 -------
 
+```
 We basically bruteforced this one. We knew that the letters that formed the key were : 3,D,R,W,3,I,C,{,}
 we could get rid of the two brackets and IW, so we're left with 3,D,R,3, and C.
 
