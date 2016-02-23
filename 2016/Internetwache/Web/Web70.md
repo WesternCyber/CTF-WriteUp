@@ -18,4 +18,4 @@ ___
 There was a big hint given, when they said **I can't handle long usernames.**
 So we just overflowed the username with 1000+ A's, and it brought us to this screen with the flag ^.^
 
-<img src="src/web70screenie.jpg" width="250">
+<img src="src/web70screenie.jpg" width="500">
