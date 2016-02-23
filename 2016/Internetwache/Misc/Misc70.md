@@ -42,6 +42,8 @@ We then extract this file via **Export Selected Packet Bytes...** as a .zip file
 ### Part three
 Opening this zip archive, we are met with a password lock.
 
+![](src/misc70screenie5.png)
+
 Trying out all the strings (including the readme) doesn't seem to work, so we went back into the pcap, and found that the authorization token that caused the second and third request to be OK was the password we were looking for in base64.
 
 <img src="src/misc70screenie4.png" width="500">

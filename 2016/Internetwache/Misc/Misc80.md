@@ -1,14 +1,14 @@
-# Internetwache 2016 : 404 Flag not found (misc70)
+# Internetwache 2016 : 404 Flag not found (misc80)
 
 **Category:** misc |
-**Points:** 70 |
+**Points:** 80 |
 **Name:** 404 Flag not found |
-**Solves:** 454 |
+**Solves:** 294 |
 **Description:**
 
-> Sniffing traffic is fun. I saw a wired shark. Isn't that strange?
+> I tried to download the flag, but somehow received only 404 errors :(
 >
-> Attachment: [misc70.zip](src/misc70.zip)
+> Attachment: [misc80.zip](src/misc80.zip)
 
 ___
 
@@ -17,43 +17,52 @@ ___
 ### Part One
 Unzipping the package given to us we get a readme with
 ```
-The shark won't bite you. Don't worry, it's wired!
+You can do it!
 ```
 
 and a gzipped pcap.
 
-Throwing the pcap onto wireshark, we see three sets of conversations between the server itself (192.168.1.41 to 192.168.1.41).
-First GET request was responded with an HTTP 401 UNAUTHORIZED error, and the second and third was responded with a HTTP 200 OK error.
+Throwing the pcap onto wireshark, we see lots of DNS requests and responses.
 
-<img src="src/misc70screenie1.png" width="500">
+### Part Two
+Took us a bit to notice this, but it seems the IPv4 and IPv6 urls requested were a chunk of base64 encoded item followed by .2015.ctf.internetwache.org
 
-Going into the follow TCP Stream of the second request, we find that a html page with two files (flag.txt and flag.zip) is transferred between the server and the client.
-Believe these are the files we are looking for :)
+Taking all this out into a file, we get this
 
-![](src/misc70screenie2.png)
-
-### Part two
-Looking into the next request/response the actually file (flag.zip) is being sent via a **application/octet-stream**
-
-We then extract this file via **Export Selected Packet Bytes...** as a .zip file.
-
-![](src/misc70screenie3.png)
-
-### Part three
-Opening this zip archive, we are met with a password lock.
-
-![](src/misc70screenie5.png)
-
-Trying out all the strings (including the readme) doesn't seem to work, so we went back into the pcap, and found that the authorization token that caused the second and third request to be OK was the password we were looking for in base64.
-
-<img src="src/misc70screenie4.png" width="500">
-
-Converting that back into ascii gave us this:
 ```
-flag:azulcrema
+496e2074686520656e642c206974277320616c6c2061626f757420666c61
+67732e0a5768657468657220796f752077696e206f72206c6f736520646f
+65736e2774206d61747465722e0a7b4f66632c2077696e6e696e67206973
+20636f6f6c65720a44696420796f752066696e64206f7468657220666c61
+67733f0a4e6f626f62792066696e6473206f7468657220666c616773210a
+53757065726d616e206973206d79206865726f2e0a5f4845524f2121215f
+0a48656c70206d65206d7920667269656e642c2049276d206c6f73742069
+6e206d79206f776e206d696e642e0a416c776179732c20616c776179732c
+20666f72206576657220616c6f6e652e0a437279696e6720756e74696c20
+49276d206479696e672e0a4b696e6773206e65766572206469652e0a536f
+20646f20492e0a7d210a
 ```
 
-Using **azulcrema** to unlock the zip, gave us our flag.txt ^.^
+And converting this out to ascii we get the flag in the first character of each line
+
 ```
-IW{HTTP_BASIC_AUTH_IS_EASY}
+In the end, it's all about flags.
+Whether you win or lose doesn't matter.
+{Ofc, winning is cooler
+Did you find other flags?
+Noboby finds other flags!
+Superman is my hero.
+_HERO!!!_
+Help me my friend, I'm lost in my own mind.
+Always, always, for ever alone.
+Crying until I'm dying.
+Kings never die.
+So do I.
+}!
 ```
+
+Sooo the flag is: 
+```
+IW{DNS_HACKS}
+```
+^.^
