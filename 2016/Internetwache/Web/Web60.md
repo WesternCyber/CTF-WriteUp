@@ -29,16 +29,16 @@ Second part was to list all files in the directory using php and we were able to
 Directory listing was done through scandir() which returned an array.
 
 Another method to list a directory (and probably faster was to execute a bash command:
-<img src="src/web60screenie2.jpg" width="500">
+<img src="src/web60screenie2.png" width="500">
 
 ### Part Three
 Final step was to open **flag.php** which was more troublesome than we thought.
 
 Trying to run any php file stream related commands we get the following:
-![](src/web60screenie3.jpg)
+![](src/web60screenie3.png)
 
 So we figured to just use bash's cat
-<img src="src/web60screenie4.jpg" width="500">
+<img src="src/web60screenie4.png" width="500">
 
 And that gave us the flag ^.^
 ```
