@@ -7,8 +7,8 @@ For writeup on CTFs challenges we have been able to complete
 ##### [BCTF](2016/BCTF/)
 + [Forensics 150](2016/BCTF/Forensics150.md)
 
-##### [CSAW CTF 16](2016/CSAW CTF 16/)
-+ [Misc 25](2016/CSAW CTF 16/misc25.md)
+##### [CSAW CTF 16](2016/CSAW/)
++ [Misc 25](2016/CSAW/misc25.md)
 
 ##### [Internetwache](2016/Internetwache/)
 + [Code 50](2016/Internetwache/Code/Code50.md)
