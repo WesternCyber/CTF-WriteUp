@@ -1,4 +1,4 @@
-# Insomnihack 2016 : Misc (25)
+# CSAW CTF 2016 : Misc (25)
 
 **Category:** misc |
 **Points:** 25 |
@@ -8,7 +8,7 @@
 
 >Coinslot
 
->#Hope #Change #Obama2008
+> \#Hope \#Change \#Obama2008
 
 ___
 
