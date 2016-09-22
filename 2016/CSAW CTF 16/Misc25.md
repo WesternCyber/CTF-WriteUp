@@ -6,9 +6,9 @@
 **Solves:** ? |
 **Description:**
 
-> Coinslot
+>Coinslot
 
-> #Hope #Change #Obama2008
+>#Hope #Change #Obama2008
 
 ___
 
